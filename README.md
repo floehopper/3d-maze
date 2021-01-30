@@ -8,22 +8,24 @@
 
 Video demo: [3D Monster Maze on the Sinclair ZX81][3]
 
-### Provenance
+### Book
 
-Book: [Graphic Adventures for the Spectrum 48K][4] (Chapter 4)
+* Book: [Graphic Adventures for the Spectrum 48K][4] (Chapter 4, pg 105)
+* Errata in decimal loader program:
+    * Missing line: `216 LET D = D + Z`
+    * Line 110: `DATA 60000, 60531, 66148` i.e. checksum is 66148, not 66240
 
 ### Files
 
 * [decimal-loader.tap](https://github.com/floehopper/3d-maze/blob/master/decimal-loader.tap) - used to enter and "poke" machine code into memory
 * [basic.tap](https://github.com/floehopper/3d-maze/blob/master/basic.tap) - BASIC program to load machine code and run game
 * [code.tap](https://github.com/floehopper/3d-maze/blob/master/code.tap) - machine code saved in 4 chunks
-* [3d-maze.tap](https://github.com/floehopper/3d-maze/blob/master/3d-maze.tap) - combines basic.tap & code.tap
+* [3d-maze.tap](https://github.com/floehopper/3d-maze/blob/master/3d-maze.tap) - combines basic.tap & code.tap (this is all you need to be able to play the game)
 
-### Errata
+### Misc
 
-* Decimal loader program
-  * Missing line: `216 LET D = D + Z`
-  * Line 110: `DATA 60000, 60531, 66148` i.e. checksum is 66148, not 66240
+* [Video playing, reviewing and modding the game by James O'Grady](https://www.youtube.com/watch?v=Q656CqMIXLY)
+* [Article about the the game on my blog](https://jamesmead.org/blog/2021-01-23-youtube-video-of-my-3d-maze-game-for-the-zx-spectrum)
 
 [1]: https://en.wikipedia.org/wiki/3D_Monster_Maze
 [2]: http://h2g2.com/edited_entry/A821648
