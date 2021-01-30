@@ -14,10 +14,10 @@ Book: [Graphic Adventures for the Spectrum 48K][4] (Chapter 4)
 
 ### Files
 
-* decimal-loader.tap - used to enter and "poke" machine code into memory
-* basic.tap - BASIC program to load machine code and run game
-* code.tap - machine code saved in 4 chunks
-* 3d-maze.tap - combines basic.tap & code.tap
+* [decimal-loader.tap](https://github.com/floehopper/3d-maze/blob/master/decimal-loader.tap) - used to enter and "poke" machine code into memory
+* [basic.tap](https://github.com/floehopper/3d-maze/blob/master/basic.tap) - BASIC program to load machine code and run game
+* [code.tap](https://github.com/floehopper/3d-maze/blob/master/code.tap) - machine code saved in 4 chunks
+* [3d-maze.tap](https://github.com/floehopper/3d-maze/blob/master/3d-maze.tap) - combines basic.tap & code.tap
 
 ### Errata
 
@@ -28,4 +28,4 @@ Book: [Graphic Adventures for the Spectrum 48K][4] (Chapter 4)
 [1]: https://en.wikipedia.org/wiki/3D_Monster_Maze
 [2]: http://h2g2.com/edited_entry/A821648
 [3]: https://www.youtube.com/watch?v=nKvd0zPfBE4
-[4]: http://www.worldofspectrum.org/infoseekid.cgi?id=2000168
+[4]: https://github.com/floehopper/3d-maze/blob/master/graphic-adventures-for-the-spectrum-48k-portuguese-edition-chapter4.pdf
